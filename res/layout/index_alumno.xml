@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/newpet2"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin" >
+    <!-- android:background="#FF4500" -->
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text=""
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true" >
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/button_alumnos_notificaciones"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/button_sync_1"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/check_salida"
+        android:onClick="but_notificaciones"
+        android:text="NOTIFICACIONES" />
+
+    <Button
+        android:id="@+id/button_sync_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button_alumnos_notificaciones"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/check_salida"
+        android:onClick="Sync_JSON"
+        android:text="SYNC JSON" />
+
+    <CheckBox
+        android:id="@+id/check_salida"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/relativeLayout1"
+        android:layout_centerVertical="true"
+        android:text="CHECK OUT" />
+
+    <CheckBox
+        android:id="@+id/check_entrada"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/check_salida"
+        android:layout_alignLeft="@+id/check_salida"
+        android:layout_alignRight="@+id/check_salida"
+        android:text="CHECK IN" />
+
+</RelativeLayout>
