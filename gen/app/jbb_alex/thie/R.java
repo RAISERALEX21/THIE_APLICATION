@@ -27,11 +27,10 @@ public final class R {
         public static final int thie_mascota=0x7f020003;
     }
     public static final class id {
-        public static final int acercaDe=0x7f090018;
+        public static final int acercaDe=0x7f090019;
         public static final int bt_Compartir=0x7f09000a;
-        public static final int butt_aceptar_net=0x7f090015;
+        public static final int butt_aceptar_net=0x7f090017;
         public static final int butt_alumno=0x7f090001;
-        public static final int butt_cancelar_net=0x7f090016;
         public static final int butt_validar=0x7f09000e;
         public static final int button1=0x7f090009;
         public static final int button2=0x7f090002;
@@ -39,10 +38,12 @@ public final class R {
         public static final int button_sync_1=0x7f090005;
         public static final int check_entrada=0x7f090007;
         public static final int check_salida=0x7f090006;
-        public static final int config=0x7f090017;
+        public static final int config=0x7f090018;
         public static final int id_alumno=0x7f090010;
         public static final int imageView1=0x7f090008;
         public static final int ip_network=0x7f090012;
+        public static final int nf_frecuencia=0x7f090015;
+        public static final int nf_tiempoAviso=0x7f090016;
         public static final int pass_desbloquear=0x7f09000d;
         public static final int puerto_netwok=0x7f090014;
         public static final int relativeLayout1=0x7f090003;

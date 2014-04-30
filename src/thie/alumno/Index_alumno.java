@@ -122,10 +122,7 @@ public class Index_alumno extends Activity{
 		
 	}
 
-	public void but_notificaciones(View view){
-		Intent lanzar = new Intent(Index_alumno.this,Thie_notificaciones.class);
-		startActivity(lanzar);
-	}
+
 	
 	public void but_multimedia(View view){
 		Intent lanzar = new Intent(Index_alumno.this,Thie_multimedia.class);
